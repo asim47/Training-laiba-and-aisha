@@ -114,15 +114,31 @@
 
 
 
-import React from 'react'
+import React, { useEffect,useState } from 'react'
+import ApiPractive from './ApiPractive'
 import BoxShadowChanger from './BoxShadowChanger'
 import CssWithReact from './CssWithReact'
+import axios from "axios"
+import ApiPracticeWithButton from './ApiPracticeWithButton'
+import ApiPracticeWithAllApis from './ApiPracticeWithAllApis'
 
-const App = () => {
+
+const App =  () => {
+
+  // states
+  // useEffect
+  // functions
+
+
+  
+
   return (
     <div>
-        {/* <CssWithReact/> */}
-        <BoxShadowChanger/>
+      {/* <CssWithReact/> */}
+      {/* <BoxShadowChanger/> */}
+      {/* <ApiPractive /> */}
+      {/* <ApiPracticeWithButton/> */}
+      <ApiPracticeWithAllApis/>
     </div>
   )
 }

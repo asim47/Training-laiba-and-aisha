@@ -1,0 +1,7 @@
+
+@GET
+https://jsonplaceholder.typicode.com/posts
+
+1.) Add a button.
+2.) click and get data.
+3.) render the data
