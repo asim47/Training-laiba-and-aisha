@@ -121,6 +121,7 @@ import CssWithReact from './CssWithReact'
 import axios from "axios"
 import ApiPracticeWithButton from './ApiPracticeWithButton'
 import ApiPracticeWithAllApis from './ApiPracticeWithAllApis'
+import Main from './Students/Main'
 
 
 const App =  () => {
@@ -138,7 +139,8 @@ const App =  () => {
       {/* <BoxShadowChanger/> */}
       {/* <ApiPractive /> */}
       {/* <ApiPracticeWithButton/> */}
-      <ApiPracticeWithAllApis/>
+      {/* <ApiPracticeWithAllApis/> */}
+      <Main/>
     </div>
   )
 }
